@@ -35,3 +35,9 @@ python main.py
 ├── custom_settings.yaml
 └── main.py
 ```
+
+## The idea
+
+* Run app with `app/config/default_settings.yaml`
+* Parse some argument or anything to update settings with `custom_settings.yaml`
+* Current `settings.name` value should be `custom name` instead of `default name`
