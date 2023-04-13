@@ -19,3 +19,19 @@ python -m pip install dynaconf
 # Run the example
 python main.py
 ```
+
+## Project structure
+
+```bash
+.
+├── README.md
+├── app
+│   ├── __init__.py
+│   ├── app.py
+│   └── config
+│       ├── __init__.py
+│       ├── default_settings.yaml
+│       └── dynaconfig.py
+├── custom_settings.yaml
+└── main.py
+```
